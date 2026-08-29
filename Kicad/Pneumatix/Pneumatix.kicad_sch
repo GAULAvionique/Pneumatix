@@ -3084,17 +3084,17 @@
 	)
 	(global_label "LORA_TX"
 		(shape input)
-		(at 128.27 81.28 180)
+		(at 128.27 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "12eec50b-46a3-4c8d-8f87-27553edb8a99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.4229 81.28 0)
+			(at 139.1171 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3102,7 +3102,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
