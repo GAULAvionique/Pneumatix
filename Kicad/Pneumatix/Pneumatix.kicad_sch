@@ -1827,8 +1827,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U1"
+				(at 0 2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1837,8 +1837,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "E22-400T33S"
+				(at 0.254 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1847,7 +1847,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Pneumatix_Lib:E32-433T33S"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1858,7 +1858,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.cdebyte.com/products/E22-400T33S#Specification"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1894,6 +1894,24 @@
 				)
 			)
 			(symbol "E22-400T33S_1_1"
+				(pin power_out line
+					(at 13.97 -11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 13.97 -11.43 180)
 					(length 2.54)
@@ -2413,16 +2431,16 @@
 		(uuid "13a3f8a2-5f9a-4b51-9c8e-725fdb00f888")
 	)
 	(junction
+		(at 158.75 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a0d40d1-ecee-4735-acc2-0c4814ae145e")
+	)
+	(junction
 		(at 148.59 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ccbe69e-927f-476c-b574-91981f89a7a9")
-	)
-	(junction
-		(at 115.57 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25a7917b-95e7-4d42-80c3-b6d47a20bb33")
 	)
 	(junction
 		(at 107.95 85.09)
@@ -2431,16 +2449,16 @@
 		(uuid "3a8bdf7b-3182-46d1-b44f-8644c70c0337")
 	)
 	(junction
-		(at 158.75 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42ce947d-1af6-46c3-a384-32756bf01eb6")
-	)
-	(junction
 		(at 201.93 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c76a472-ba6d-4fa3-b2e4-5829a5d5d25a")
+	)
+	(junction
+		(at 115.57 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94f11f85-d50c-4048-b0a2-36b4c4037a35")
 	)
 	(junction
 		(at 204.47 76.2)
@@ -2455,16 +2473,16 @@
 		(uuid "bb12d7ee-9954-409f-a3f2-de9e8bc9a38f")
 	)
 	(junction
-		(at 158.75 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cac65bf2-be43-4486-9435-91ee29b1167c")
-	)
-	(junction
 		(at 207.01 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbee2a75-725f-4ccc-8452-af4f3a0dcdea")
+	)
+	(junction
+		(at 158.75 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1468c2e-e398-4f82-87b2-ccde92282769")
 	)
 	(junction
 		(at 153.67 102.87)
@@ -2485,7 +2503,7 @@
 		(uuid "f55006b1-ecd7-40f1-8e7b-48872436de0c")
 	)
 	(no_connect
-		(at 157.48 90.17)
+		(at 158.75 90.17)
 		(uuid "2a009e03-ab1d-4335-9f87-59b1b4493d03")
 	)
 	(wire
@@ -2630,16 +2648,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 93.98) (xy 157.48 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e2c9b56-ac45-471f-bc70-af1b3883cb50")
-	)
-	(wire
-		(pts
 			(xy 166.37 86.36) (xy 166.37 87.63)
 		)
 		(stroke
@@ -2750,7 +2758,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 129.54 85.09)
+			(xy 115.57 85.09) (xy 130.81 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2767,16 +2775,6 @@
 			(type default)
 		)
 		(uuid "a37993d8-70ca-4fe1-ada6-e4df38e0b548")
-	)
-	(wire
-		(pts
-			(xy 157.48 78.74) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a42e5b5b-cf84-49e6-8719-18b697ff9c28")
 	)
 	(wire
 		(pts
@@ -2820,16 +2818,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 166.37 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2c6cb21-f4ba-4d00-9908-3ec73e1592ea")
-	)
-	(wire
-		(pts
 			(xy 106.68 85.09) (xy 107.95 85.09)
 		)
 		(stroke
@@ -2860,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 92.71) (xy 128.27 92.71)
+			(xy 130.81 92.71) (xy 128.27 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2880,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 129.54 78.74)
+			(xy 128.27 78.74) (xy 130.81 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2950,16 +2938,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 158.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8bdda65-6c44-49db-bc8b-5e1438d69166")
-	)
-	(wire
-		(pts
 			(xy 128.27 105.41) (xy 128.27 104.14)
 		)
 		(stroke
@@ -2970,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 81.28) (xy 129.54 81.28)
+			(xy 128.27 81.28) (xy 130.81 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2980,7 +2958,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 90.17) (xy 123.19 90.17)
+			(xy 130.81 90.17) (xy 123.19 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3007,6 +2985,16 @@
 			(type default)
 		)
 		(uuid "ea43e443-4ea7-44e1-bdcd-b06a97422e85")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.74) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec337880-799c-4762-9baf-188378c65b94")
 	)
 	(wire
 		(pts
@@ -3040,13 +3028,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 166.37 78.74)
+			(xy 158.75 86.36) (xy 166.37 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff9c2f60-0058-4eb6-b676-28ff4bda04ff")
+		(uuid "f9537ad5-6af3-4abb-a33b-97305038f50e")
 	)
 	(wire
 		(pts
@@ -3084,17 +3072,17 @@
 	)
 	(global_label "LORA_TX"
 		(shape input)
-		(at 128.27 81.28 0)
+		(at 128.27 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "12eec50b-46a3-4c8d-8f87-27553edb8a99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.1171 81.28 0)
+			(at 117.4229 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3102,7 +3090,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4395,7 +4383,7 @@
 	)
 	(symbol
 		(lib_id "Pneumatix_Lib:E22-400T33S")
-		(at 143.51 74.93 0)
+		(at 144.78 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4405,7 +4393,7 @@
 		(dnp no)
 		(uuid "b9723d60-ae09-420b-9799-d407a07a194c")
 		(property "Reference" "U1"
-			(at 143.51 72.898 0)
+			(at 144.78 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4415,7 +4403,7 @@
 			)
 		)
 		(property "Value" "E22-400T33S"
-			(at 143.764 74.93 0)
+			(at 145.034 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4425,7 +4413,7 @@
 			)
 		)
 		(property "Footprint" "Pneumatix_Lib:E32-433T33S"
-			(at 143.51 74.93 0)
+			(at 144.78 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4436,7 +4424,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.cdebyte.com/products/E22-400T33S#Specification"
-			(at 143.51 74.93 0)
+			(at 144.78 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4447,7 +4435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 74.93 0)
+			(at 144.78 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,6 +4483,9 @@
 		)
 		(pin "7"
 			(uuid "390cfbda-1e95-4a9f-85d8-41bed9f607d9")
+		)
+		(pin "0"
+			(uuid "08f55d49-2666-47a8-bf21-20198ded34df")
 		)
 		(instances
 			(project "Pneumatix"
