@@ -2557,7 +2557,7 @@
 		(uuid "e1b544ef-9a1a-44b2-a04c-cbb3a6f2faef")
 	)
 	(junction
-		(at 114.3 123.19)
+		(at 114.3 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1c49190-11f8-4b74-a007-2d03c38c7ef5")
@@ -2630,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 123.19) (xy 115.57 123.19)
+			(xy 114.3 132.08) (xy 115.57 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2720,7 +2720,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 121.92) (xy 95.25 123.19)
+			(xy 95.25 130.81) (xy 95.25 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2747,6 +2747,16 @@
 			(type default)
 		)
 		(uuid "39b7dc93-cef6-4ea1-af0f-e025f4119b9c")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 114.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443d614c-f5d1-4dd6-9225-cb8ffe7e310d")
 	)
 	(wire
 		(pts
@@ -2787,6 +2797,16 @@
 			(type default)
 		)
 		(uuid "69fbe38e-8012-42eb-b720-1fa9d6122f4d")
+	)
+	(wire
+		(pts
+			(xy 114.3 144.78) (xy 114.3 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5ca878-cb85-4b81-902f-9e63b2003649")
 	)
 	(wire
 		(pts
@@ -2980,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 123.19) (xy 107.95 123.19)
+			(xy 106.68 132.08) (xy 107.95 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3000,7 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 123.19) (xy 113.03 123.19)
+			(xy 114.3 132.08) (xy 113.03 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3130,7 +3150,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 123.19) (xy 96.52 123.19)
+			(xy 95.25 132.08) (xy 96.52 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3210,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 129.54) (xy 114.3 130.81)
+			(xy 114.3 138.43) (xy 114.3 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3230,7 +3250,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 124.46) (xy 114.3 123.19)
+			(xy 114.3 133.35) (xy 114.3 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3394,7 +3414,7 @@
 	)
 	(global_label "LORA_M0"
 		(shape input)
-		(at 115.57 123.19 0)
+		(at 115.57 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3404,7 +3424,7 @@
 		)
 		(uuid "4d0cce8f-7397-4489-a1d3-7e5e936087c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9009 123.19 0)
+			(at 126.9009 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3610,6 +3630,85 @@
 			(project "Pneumatix"
 				(path "/f504cd5f-39a1-42fc-a563-dbfc0d20eebb"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 114.3 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "005b0205-6bab-4ee9-991d-fba3e7007f69")
+		(property "Reference" "R10"
+			(at 116.84 141.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 117.856 143.256 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 114.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 114.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49bc2876-4093-4770-a80d-37c0b3f0447b")
+		)
+		(pin "1"
+			(uuid "5c79cc5f-a912-4df9-b3c6-5f29d1af3000")
+		)
+		(instances
+			(project "Pneumatix"
+				(path "/f504cd5f-39a1-42fc-a563-dbfc0d20eebb"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3932,7 +4031,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 130.81 0)
+		(at 114.3 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3943,7 +4042,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f373cb2-3b47-468b-9ef1-5055aac8f460")
 		(property "Reference" "#PWR016"
-			(at 114.3 137.16 0)
+			(at 114.3 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3954,7 +4053,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 135.89 0)
+			(at 114.3 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3964,7 +4063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 130.81 0)
+			(at 114.3 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3975,7 +4074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 130.81 0)
+			(at 114.3 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3986,7 +4085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 130.81 0)
+			(at 114.3 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4010,7 +4109,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 110.49 123.19 270)
+		(at 110.49 132.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4020,7 +4119,7 @@
 		(dnp no)
 		(uuid "37abb6fa-5728-4cc0-9851-77ccba767c69")
 		(property "Reference" "R7"
-			(at 110.49 121.412 90)
+			(at 110.49 130.302 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4030,7 +4129,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 110.49 125.476 90)
+			(at 110.49 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4040,7 +4139,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 110.49 123.19 0)
+			(at 110.49 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,7 +4150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 123.19 0)
+			(at 110.49 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4062,7 +4161,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 110.49 123.19 0)
+			(at 110.49 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4774,7 +4873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical"
 			(at 219.71 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5265,40 +5364,38 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 101.6 123.19 180)
+		(lib_id "Device:R_Small")
+		(at 114.3 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "91bd59aa-63b2-46d1-a294-8dd9cab9370a")
-		(property "Reference" "JP2"
-			(at 103.632 120.904 0)
+		(uuid "8efd23a6-9aee-4adb-a5f4-45ad9c384844")
+		(property "Reference" "R9"
+			(at 116.84 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 117.856 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 105.918 125.476 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 101.6 123.19 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 114.3 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5309,7 +5406,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 115.57 0)
+			(at 114.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 114.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cec4f159-5898-4d21-a0cd-cc5af8a06830")
+		)
+		(pin "1"
+			(uuid "1e20c4f4-54ee-42e4-9a5b-a52b919f10fb")
+		)
+		(instances
+			(project "Pneumatix"
+				(path "/f504cd5f-39a1-42fc-a563-dbfc0d20eebb"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 101.6 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91bd59aa-63b2-46d1-a294-8dd9cab9370a")
+		(property "Reference" "JP2"
+			(at 103.632 129.794 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 105.918 134.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 101.6 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5320,7 +5498,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 101.6 118.11 0)
+			(at 101.6 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +5525,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 113.03 0)
+		(at 114.3 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5358,7 +5536,7 @@
 		(fields_autoplaced yes)
 		(uuid "92e1df70-cffc-4b36-9b4d-f884691ce397")
 		(property "Reference" "#PWR015"
-			(at 114.3 119.38 0)
+			(at 114.3 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5369,7 +5547,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 118.11 0)
+			(at 114.3 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5379,7 +5557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 113.03 0)
+			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5390,7 +5568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 113.03 0)
+			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5401,7 +5579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 113.03 0)
+			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5425,7 +5603,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 95.25 121.92 0)
+		(at 95.25 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5436,7 +5614,7 @@
 		(fields_autoplaced yes)
 		(uuid "97ad7c4c-012b-4309-bb5c-4544096ecc35")
 		(property "Reference" "#PWR09"
-			(at 95.25 125.73 0)
+			(at 95.25 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5447,7 +5625,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 95.25 116.84 0)
+			(at 95.25 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5457,7 +5635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 121.92 0)
+			(at 95.25 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5468,7 +5646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 121.92 0)
+			(at 95.25 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5479,7 +5657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 95.25 121.92 0)
+			(at 95.25 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6177,7 +6355,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 114.3 127 0)
+		(at 114.3 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6187,7 +6365,7 @@
 		(dnp no)
 		(uuid "e779a78c-ce85-4408-8919-0342d2a45615")
 		(property "Reference" "R8"
-			(at 116.84 126.238 0)
+			(at 116.84 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6197,7 +6375,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 117.856 128.016 0)
+			(at 117.856 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6207,7 +6385,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 114.3 127 0)
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6218,7 +6396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 127 0)
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6229,7 +6407,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 114.3 127 0)
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
